@@ -1,6 +1,6 @@
 fs = require 'fs'
 _  = require 'underscore'
-{existsSync} = require 'path'
+{existsSync, dirname} = require 'path'
 
 makeDir = (path, options = {}) -> 
   mode = options.mode or 0755
