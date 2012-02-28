@@ -1,0 +1,16 @@
+{
+  "author": "vol4ok <admin@vol4ok.net>",
+  "name": "fs.utils",
+  "description": "fs.utils",
+  "version": "0.0.1",
+  "main": "fs.utils.js",
+  "repository": {
+    "url": ""
+  },
+  "engines": {
+    "node": "~0.6.11"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
