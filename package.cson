@@ -5,7 +5,7 @@ description: "fs.utils"
 version: "0.0.1"
 main: "fs.utils.js"
 repository: 
-  url: ""
+  url: "git://github.com/vol4ok/fs.utils.git"
 engines: 
   node: "~0.6.11"
 dependencies: {}
