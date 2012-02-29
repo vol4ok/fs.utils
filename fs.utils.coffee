@@ -11,5 +11,6 @@ makeDir = (path, options = {}) ->
     options.createdDirs.push(path) if _.isArray(options.createdDirs)
     
 setExt = (file, ext) -> file.replace(/(\.[^.\/]*)?$/i, ext)
+removeExt = (file, ext) -> file.replace(/(\.[^.\/]*)?$/i, '')
 
-exports extends {makeDir, setExt}
+exports extends {makeDir, setExt, removeExt}
